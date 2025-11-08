@@ -15,7 +15,8 @@ if (!name || !email || !message || !emailRegex.test(email)) {
 }
 
   // Simulación de envío POST
-  fetch("https://ejemplo.com/api/contacto", {
+  fetch("https://formspree.io/f/xgvrwkqo", {
+   
     method: "POST",
     headers: {
       "Content-Type": "application/json"
